@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for c in category %}<b>{{c}}</b>
+        {% for i in item %}
+            {% if i.category_item == c %}
+                {{i}}
+            {% endif %}
+
+    {% endfor %}
+{% endfor %}
+
+</body>
+</html>
