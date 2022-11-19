@@ -1,0 +1,2 @@
+def getMyName():
+    return "Kuba"
