@@ -50,7 +50,7 @@ class ResetPasswordView(View):
 
 
 class LoginPageView(View):
-    template_name = "register/index.html"
+    template_name = "register/login.html"
     form_class = LoginForm
 
     def get(self, request):
