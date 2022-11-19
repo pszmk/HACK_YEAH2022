@@ -1,2 +1,0 @@
-def getMyName():
-    return "Przemek"
