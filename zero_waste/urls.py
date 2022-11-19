@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from register.views import BaseView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('register/', include("register.urls")),
+    path("", BaseView.as_view(), name='base'),
+    path('user/', include("register.urls")),
     path('items/', include("ownitems.urls")),
     path('calendar/', include("calendarapp.urls")),
 ]
