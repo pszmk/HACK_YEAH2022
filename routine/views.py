@@ -20,21 +20,23 @@ class RoutineList(ListView):
     context_object_name = 'items'
     paginate_by = 5
     # ordering = ['-create']
+    
     def get(self, request, *args, **kwargs):
         self.object_list = self.get_queryset()
         context = self.get_context_data()  
+        print(context['object_list'])
         return self.render_to_response(context)
 
 
 
-class RoutineCreate(FormView):    
+class RoutineCreate(CreateView):    
     model = Routine
-    fields = ["routine_title"]
+    fields = ["routine_title", "routine_description"]
     success_url = reverse_lazy('routines')
     
 
-    def form_valid(self, form):
-        form.instance.user = self.request.user
+    def form_valid(self, form , **kwargs):
+        # form.instance.user = self.request.user
         return super(RoutineCreate, self).form_valid(form)
 
 
