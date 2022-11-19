@@ -1,0 +1,15 @@
+<div class="header__root">
+    <div class="header__baner">
+        <a href="/" class="header__header-logo logo"></a>
+    </div>
+    <div class="header__link">
+        <ul class="header__menu">
+            
+            {% if request.user.is_superuser %}
+            <li class="header__menuItem">
+                <a href="/admin" class="header__menuItem-a"><i class="fa-solid fa-lock"></i>Admin </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
