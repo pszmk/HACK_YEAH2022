@@ -24,4 +24,5 @@ urlpatterns = [
     path('user/', include("register.urls")),
     path('items/', include("ownitems.urls")),
     path('calendar/', include("calendarapp.urls")),
+    path('routine/', include("routine.urls")),
 ]
