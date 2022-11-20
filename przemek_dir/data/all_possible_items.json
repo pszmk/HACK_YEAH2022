@@ -64,7 +64,7 @@
 "score": 90
 },
 {
-"name": "lentil",
+"name": "onion",
 "recommendation":"",
 "cathegory": "food",
 "score": 90
@@ -174,7 +174,7 @@
 },
 {
 "name": "regular soap",
-"recommendation":"Consider using organic soap. Many commercial soaps will also contain toxic chemicals that wash down the drain and pollute the waterways and negatively affect marine life.",
+"recommendation":"Consider using organic soap. Many commercial soaps will contain toxic chemicals that wash down the drain and pollute the waterways and negatively affect marine life.",
 "cathegory": "hygiene",
 "score": 50
 },

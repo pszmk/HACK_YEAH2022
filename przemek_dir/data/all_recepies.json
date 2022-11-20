@@ -1,0 +1,80 @@
+[
+  {
+    "key_ingredients": ["mushrooms", "pea", "soybeans"],
+    "title": "Bean Stew With Tomatoes, Spinach, And Mushrooms Recipe",
+    "ingredients": ["Navy beans", "soaked overnight", "4 c. Water", "Tbsp. Crushed warm pepper flakes, (up to 2)",
+    "2 Tbsp. Broth or possibly water, (used instead of oil) (up to 4)",
+    "1 med Onion, minced",
+    "2 x Garlic cloves, chopped",
+    "6 ounce Mushrooms, quartered",
+    "2 x Carrots, shredded",
+    "1 1/2 tsp Dry basil",
+    "1 can (16 ounce) diced tomatoes",
+    "1 pkt (10 ounce) frzn leaf spinach, thawed and squeezed dry Salt and freshly grnd pepper, (I substitute no-salt seasoning @ 2 tsp.)"],
+    "text":["Combine the liquid removed beans 4 c. water, and warm pepper flakes in the pressure cooker.",
+      "Cover and bring up to high pressure. Reduce heat to stabilize pressure and cook 5 min.",
+      "Release pressure by running cool water over the cover. Drain beans and set aside.",
+      "Heat the broth in the pressure cooker over medium heat. Add in the onion and garlic and cook uncovered till they begin to soften, 3 to 4 min.",
+      "Add in mushroom, carrots, and basil; cook 2 min. Add in beans, the tomatoes with their liquid, spinach, salt and pepper.",
+      "Cover and bring up to high pressure. Reduce heat to stabilize pressure and cook 4 min. Release pressure.",
+      "If you remember to put start soaking beans in the morning - it doesn't take long to get dinner on the table in the evening."]
+  },
+  {"key_ingredients": ["pork", "banana", "chicken"],
+    "title": "Pork medallions",
+    "ingredients":[
+    "1 tbsp olive oil",
+    "600g pork medallions",
+    "2 tbsp unsalted butter",
+    "2 banana shallots, thinly sliced",
+    "250g chestnut mushrooms, sliced",
+    "1 garlic clove, crushed",
+    "1 tbsp plain flour",
+    "100ml madeira or sherry",
+    "400ml chicken stock",
+    "4 sprigs thyme",
+    "0.5 tbsp wholegrain mustard",
+    "100ml double cream",
+    "mashed potato and wilted greens, to serve"
+  ],
+    "text": ["Heat the oil in a large non-stick frying pan and fry the pork on each side for 2-3 mins until golden brown. Set aside on a plate.",
+      "Melt the butter in the pan and, when foaming, fry the shallots and mushrooms over a medium heat for 10 mins. Add the garlic and cook for another 1 min. Stir through the flour and cook for another 2 mins. Whisk through the madeira and boil for 2 mins. Gradually stir through the stock until the sauce is lump free. Add the thyme and mustard and season to taste.",
+      "Return the pork to the pan and simmer uncovered for 5-7 mins or until the pork is cooked through. Stir through the cream and heat again until simmering. Serve with creamy mashed potatoes and wilted greens."
+    ]
+  },
+  {
+    "key_ingredients": ["mushrooms", "beef", "onion"],
+    "title": "Beef stroganoff",
+    "ingredients":["1 tbsp olive oil", "1 onion, sliced", "1 clove of garlic", "1 tbsp butter", "250g mushrooms, sliced", "1 tbsp plain flour", "500g fillet steak, sliced", "150g creme frache", "1 tsp English mustard", "100ml beef stock", "0.5 small pack of parsley, chopped"],
+    "text": ["Heat 1 tbsp olive oil in a non-stick frying pan then add 1 sliced onion and cook on a medium heat until completely softened, around 15 mins, adding a little splash of water if it starts to stick.",
+    "Crush in 1 garlic clove and cook for 2-3 mins more, then add 1 tbsp butter.",
+    "Once the butter is foaming a little, add 250g sliced mushrooms and cook for around 5 mins until completely softened.",
+    "Season everything well, then tip onto a plate.",
+    "Tip 1 tbsp plain flour into a bowl with a big pinch of salt and pepper, then toss 500g sliced fillet steak in the seasoned flour.",
+    "Add the steak pieces to the pan, splashing in a little oil if the pan looks dry, and fry for 3-4 mins, until well coloured.",
+    "Tip the onions and mushrooms back into the pan. Whisk 150g creme fraiche, 1 tsp English mustard and 100ml beef stock together, then stir into the pan.",
+    "Cook over a medium heat for around 5 mins.",
+    "Scatter with some chopped parsley, and serve with pappardelle or rice."]
+  },
+  {
+    "key_ingredients": ["rice", "onion", "fish", "potato"],
+    "title": "Fish mappas",
+    "ingredients":["300g basmati rice", "1 tbsp sunflower or vegetable oil", "2 large onions, sliced", "2 garlic cloves, chopped", "450g tomatoes, cut into chunks", "3 tbsp tikka curry paste", "400g can coconut milk", "4 skinless, boneless pollock fillets (about 150g/51/2oz each), or other sustainable white fish, cut into 4cm/11/2in chunks", "0.5 small pack coriander, roughly chopped"],
+    "text": ["Put a large saucepan of water on to boil and cook the rice following pack instructions. Meanwhile, heat the oil in a large, wide saucepan over a medium heat and add the onions. Cook for 5-10 mins until softened and starting to colour. Add the garlic and tomatoes, and fry for 2 mins. Add the curry paste, fry for 2 mins more, then pour in the coconut milk and bring to the boil.",
+    "Add the fish to the pan and simmer gently for 5-8 mins until just cooked through. Turn off the heat. Sprinkle the coriander over the curry and serve with the rice."]
+  },
+{
+"key_ingredients": ["peach","chicken"],
+"title": "Chicken with Peach-Cucumber Salsa",
+"ingredients": ["1-1/2 cups chopped peeled fresh peaches (about 2 medium)","3/4 cup chopped cucumber","4 tablespoons peach preserves, divided","3 tablespoons finely chopped red onion","1 teaspoon minced fresh mint","3/4 teaspoon salt, divided","4 boneless skinless chicken breast halves (6 ounces each)","1/4 teaspoon pepper"],
+"text": [
+"For salsa, in a small bowl, combine peaches, cucumber, 2 tablespoons preserves, onion, mint and 1/4 teaspoon salt.",
+"Sprinkle chicken with pepper and remaining salt. On a lightly oiled grill rack, grill chicken, covered, over medium heat 5 minutes. Turn; grill 7-9 minutes longer or until a thermometer reads 165°, brushing tops occasionally with remaining preserves. Serve with salsa."
+]
+},
+{
+"key_ingredients": ["pork","apple"],
+"title": "Crock Pot Pork",
+"ingredients": ["1 lb Pork tenderloin","2 tablespoons Avocado oil","2 medium Apples (one diced and one sliced)","1 large Sweet potato"," medium Red onion","1 tablespoon Honey","1/2 tablespoon Cinnamon","1 teaspoon Sea salt","1/2 teaspoon Pepper"],
+"text": ["Season pork tenderloin with 1/2 teaspoon salt and 1/4 teaspoon pepper.","Heat oil in a skillet over medium-high heat. Sear the pork for 2-3 minutes per side, until browned.","Place diced sweet potato, one diced apple, and diced onion in the bottom of the slow cooker. Season with remaining salt and pepper.","Make slits in the pork tenderloin and stuff with the other sliced apple. Transfer to the slow cooker and sprinkle the entire mix with cinnamon and drizzle with honey.","Cook on Low for 7-8 hours, until internal temperature is 145 degrees F. Rest for at least 3 minutes before serving."]
+}
+]

@@ -1,4 +1,4 @@
 import pytest
-import przemek_dir.modules.json_database_module
+import przemek_dir.modules.jsonDatabase
 
 def test_add_item():
