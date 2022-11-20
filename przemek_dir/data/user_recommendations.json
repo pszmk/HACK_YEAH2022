@@ -1,0 +1,10 @@
+{
+    "item_recommendations": [
+        {
+            "cathegory": null,
+            "item": "food",
+            "recommendation": "soybeans"
+        }
+    ],
+    "habit_recommendations": []
+}
