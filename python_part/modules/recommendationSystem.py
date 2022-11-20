@@ -41,7 +41,7 @@ def resetRecommendations():
                   file, indent=4)
 
 if __name__ == "__main__":
-    from przemek_dir.modules.jsonDatabase import addItem, resetDatabase
+    from python_part.modules.jsonDatabase import addItem, resetDatabase
     resetDatabase()
     addItem({
         "name": "onion",

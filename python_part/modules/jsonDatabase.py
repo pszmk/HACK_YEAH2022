@@ -1,4 +1,4 @@
-from przemek_dir.modules.scoreManager import add_subScore
+from python_part.modules.scoreManager import add_subScore
 from pathlib import Path
 import json
 
@@ -7,6 +7,8 @@ def resetDatabase():
         json.dump([], file, indent=4)
 
 def addItem(item={}):
+    '''Add new item to the file user_items.json
+    '''
     new_item = {
         "name": None,
         "recommendation": None,
