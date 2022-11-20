@@ -1,10 +1,24 @@
 <div class="header__root">
     <div class="header__baner">
-        <a href="/" class="header__header-logo logo"></a>
+        <a href="/" class="header__header-logo logo"><img src="https://hackyeah.pl/wp-content/uploads/2021/10/logo-z-govtechem-04versionSMALL.jpg" alt="logo"></a>
     </div>
     <div class="header__link">
         <ul class="header__menu">
-            
+            <li class="header__menuItem">
+                <a href="{% url 'calendar' %}" class="header__menuItem-a"><i class="fa-solid fa-lock"></i>Calendar </a>
+            </li>
+            <li class="header__menuItem">
+                <a href="{% url 'routines' %}" class="header__menuItem-a"><i class="fa-solid fa-lock"></i>Routines </a>
+            </li>
+            <li class="header__menuItem">
+                <a href="{% url 'routine-create' %}" class="header__menuItem-a"><i class="fa-solid fa-lock"></i>Create Routine</a>
+            </li>
+            <li class="header__menuItem">
+                <a href="{% url 'routines-relation' %}" class="header__menuItem-a"><i class="fa-solid fa-lock"></i>Routine Relation</a>
+            </li>
+            <li class="header__menuItem">
+                <a href="{% url 'routine-relation-create' %}" class="header__menuItem-a"><i class="fa-solid fa-lock"></i>Create Routine Relation</a>
+            </li>
             {% if request.user.is_superuser %}
             <li class="header__menuItem">
                 <a href="/admin" class="header__menuItem-a"><i class="fa-solid fa-lock"></i>Admin </a>

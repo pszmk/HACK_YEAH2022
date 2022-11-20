@@ -1,22 +1,10 @@
+{% extends "index.html" %} {% block content %}
+
 {% load static %}
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="{% static 'css/main.css' %}">
-    <title>My amazing site</title>
-</head>
 
-<body>
-    <div id="sidebar">
-        
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog/">Blog</a></li>
-        </ul>
-        
-    </div>
 
-    <div id="content">
+<div id="content">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
      <div id="root"></div>
        <!-- making the department_choices variable avialable in the DOM -->
        <!-- main.a00e5ead.js -->
@@ -27,5 +15,6 @@
 
 
 </div>
-</body>
-</html>
+
+
+{% endblock content %}
