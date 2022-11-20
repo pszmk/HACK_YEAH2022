@@ -56,11 +56,11 @@ if __name__ == "__main__":
         "score": 80
     })
     addItem({
-"name": "organic shampoo in reusable bottle",
-"recommendation":"",
-"cathegory": "hygiene",
-"score": 100
-})
+        "name": "organic shampoo in reusable bottle",
+        "recommendation":"",
+        "cathegory": "hygiene",
+        "score": 100
+        })
     # print(getFoods())
     # # print(len(getFoods()))
     # print([food['name'] for food in getFoods()])
