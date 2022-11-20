@@ -204,5 +204,136 @@ hygene_items = [
 }]
 
 
-for item in food_items:
-    print(item["name"])
+# for item in food_items:
+#     print(item["name"])
+
+y = {
+"clothing":[{
+"name": "buying new clothes",
+"category": "clothes",
+"solutions": [
+{
+"name": "check in database if you really need it",
+"score": "90",
+},
+{
+"name": "buy it second-hand",
+"score": "100",
+},
+{
+"name": "postpone purchase",
+"score": "50",
+}
+]
+},
+{
+"name": "dressing up for special occasion",
+"category": "clothes",
+"solutions": [
+{
+"name": "rent formal clothes",
+"score": "80",
+}
+]
+},
+{
+"name": "getting rid of old clothes",
+"category": "clothes",
+"solutions": [
+{
+"name": "sell them",
+"score": "100",
+},
+{
+"name": "give them away",
+"score": "100",
+},
+{
+"name": "use them as rags",
+"score": "80",
+}
+]
+}],
+"food": [
+{
+"name": "food shopping",
+"category": "food",
+"solutions": [
+{
+"name": "use your own bags",
+"score": "60",
+}
+]
+},
+{
+"name": "drinks",
+"category": "food",
+"solutions": [
+{
+"name": "buy drinks in glass bottles",
+"score": "70",
+}
+]
+}],
+"hygiene": [{
+"name": "brushing teeth",
+"category": "hygiene",
+"solutions": [
+{
+"name": "use wooden toothbrush",
+"score": "70",
+},
+{
+"name": "use cup for water",
+"score": "60",
+},
+{
+"name": "use wooden toothbrush and cup for water",
+"score": "100",
+}
+]
+},
+{
+"name": "shaving",
+"category": "hygiene",
+"solutions": [
+{
+"name": "use safety razor",
+"score": "65",
+}
+]
+},
+{
+"name": "bathing",
+"category": "hygiene",
+"solutions": [
+{
+"name": "take shower",
+"score": "70",
+},
+{
+"name": "using zero waste cosmetics",
+"score": "80",
+},
+{
+"name": "take shower and use zero waste cosmetics",
+"score": "90",
+}
+]
+},
+{
+"name": "maquillage",
+"category": "hygiene",
+"solutions": [
+{
+"name": "use zero waste cosmetics",
+"score": "80",
+}
+]
+}]
+}
+
+print(y)
+print(y['clothing'])
+print(y['food'])
+print(y['hygiene'])

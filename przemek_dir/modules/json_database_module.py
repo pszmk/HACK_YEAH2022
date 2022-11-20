@@ -13,11 +13,11 @@ def add_item(item={}):
         if key in new_item.keys():
             new_item[key] = val
 
-    with open(Path(__file__).parent.parent/'data'/'items.json', 'r') as file:
+    with open(Path(__file__).parent.parent/'data'/'user_items.json', 'r') as file:
         file_list = json.load(file)
         file_list.append(new_item)
 
-    with open(Path(__file__).parent.parent/'data'/'items.json', 'w') as file:
+    with open(Path(__file__).parent.parent/'data'/'user_items.json', 'w') as file:
         json.dump(file_list, file, indent=4)
 
 def add_routine():
